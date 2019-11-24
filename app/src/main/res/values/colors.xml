@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CCCCCC</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#E6E6E6</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="background_color">#FFFFFF</color>
+
+
+
+    <color name="friend_color">#4A38FF5F</color>
+    <color name="enemy_color">#2DF52020</color>
+
+    <color name="online_color">#30FF56</color>
+    <color name="offline_color">#FF3838</color>
+</resources>

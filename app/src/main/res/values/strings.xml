@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DogsApp</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">Login failed</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="register_text">New Member?</string>
+    <string name="login_text">Already Registered?</string>
+
+    <string name="login_btn">Log in</string>
+    <string name="register_btn">Register</string>
+    <string name="submit_btn">Submit</string>
+
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="title_activity_forgot_pass">ForgotPassActivity</string>
+
+    <string name="prefs_name">location</string>
+
+    <string name="loading_msg">Loading...</string>
+    <string name="error_message">Unexpected error, please try again.</string>
+
+
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_unknown">Unknown</string>
+
+    <string name="password_error">Please enter a password with 5 or more characters</string>
+    <string name="email_error">Please enter a valid email</string>
+
+</resources>

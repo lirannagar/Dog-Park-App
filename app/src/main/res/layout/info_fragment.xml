@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding">
+
+    <ImageView
+        android:id="@+id/info_profile_iv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_icon" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_outline"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/info_profile_iv"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="@+id/info_profile_iv">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text="Status:" />
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/amiko"
+            android:text="Online" />
+
+        <Button
+            android:id="@+id/location_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text="Location" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/info_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/amiko"
+        android:text="Username"
+        app:layout_constraintStart_toStartOf="@+id/info_profile_iv"
+        app:layout_constraintTop_toBottomOf="@+id/info_profile_iv" />
+
+    <ImageView
+        android:id="@+id/info_dog_iv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/info_profile_iv"
+        app:layout_constraintTop_toBottomOf="@+id/info_username"
+        app:srcCompat="@drawable/dog_icon" />
+
+    <TextView
+        android:id="@+id/info_dogs_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/amiko"
+        android:text="Dog's Name"
+        app:layout_constraintStart_toStartOf="@+id/info_dog_iv"
+        app:layout_constraintTop_toBottomOf="@+id/info_dog_iv" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_outline"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/info_dog_iv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/info_dog_iv"
+        app:layout_constraintTop_toTopOf="@+id/info_dog_iv">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text="Dog's information:" />
+
+        <TextView
+            android:id="@+id/info_dogs_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/amiko"
+            android:text="Size:" />
+
+        <TextView
+            android:id="@+id/info_dogs_attributes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text="Attributes:" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/default_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/amiko"
+            android:text="SET DEFAULT" />
+
+        <Button
+            android:id="@+id/friend_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/amiko"
+            android:text="Add Friend" />
+
+        <Button
+            android:id="@+id/enemy_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/amiko"
+            android:text="Add Enemy" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
